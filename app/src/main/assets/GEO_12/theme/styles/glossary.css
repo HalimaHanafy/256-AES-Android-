@@ -1,0 +1,155 @@
+/*eslamic main #2e7c44 light #39914c dark #1d502d another c #7dbc85 light #8bcc8e */
+@font-face {
+    font-family: 'GESS_TWO_MEDIUM';
+    src: local('☺'), url(../../../player/fonts/GESS_Two_Medium.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESS_TWO_LIGHT';
+    src: local('☺'), url(../../../player/fonts/GESS_Two_light.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    position: relative;
+}
+
+html,
+body {
+    min-height: 100%;
+    font-family: "GESS_TWO_LIGHT", "jf-flat", "cocon", Arial, sans-serif;
+}
+
+body {
+    font-size: 15px;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+a:active,
+a:hover,
+a:focus {
+    outline: 0;
+    text-decoration-line: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clear_ul {
+    padding: 0;
+    border: 0;
+    list-style: none;
+    margin: 0px;
+}
+
+
+/*general styles*/
+
+.no-margin {
+    margin: 0;
+}
+
+.line_text {
+    line-height: 30px;
+}
+
+.content {
+    height: 100%;
+}
+
+/*.page_title {
+    background: #8bcc8e none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px 60px;
+}*/
+ 
+/*   Glossary V03 */
+body.glossary{
+     background: #dbd8ba none repeat scroll 0 0;
+}
+.glossary .gloss_letters {
+    margin-top: 30px;
+}
+.glossary .gloss_letters .letter {
+    background: #fff none repeat scroll 0 0;
+    color: #000;
+    display: block;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin: 1px;
+    text-align: center;
+    width: 40px;
+    cursor: pointer;
+}
+.glossary .letter.dimmed_letter {
+    cursor: no-drop;
+    opacity: 0.75;
+}
+.glossary .letter:not(.dimmed_letter):hover,.glossary .letter:not(.dimmed_letter):focus,.glossary .letter:not(.dimmed_letter).active_letter {
+    background-color: #FDCA2C;
+}
+.glossary .menu_title,.glossary .tabs_title{
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    background-color:#39914c ;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: #fff;
+}
+.glossary .tab-content,.glossary .gloss_words{
+    background: #fff none repeat scroll 0 0;
+    height: 300px;
+    padding: 10px;
+    width: 100%;
+}.glossary .tab-content{
+    display:  inline-block;
+}
+.glossary .tab-content .desc {
+    font-size: 16px;
+    line-height: 30px;
+}
+.glossary .gloss_words ul{
+    list-style: outside none none;
+    padding-right: 0;
+    overflow-y:auto;
+    overflow-x: hidden;
+    max-height: 280px;
+    margin-bottom: 0px;
+}
+.glossary .desc{
+    max-height: 280px;
+    overflow-y: auto;
+}
+.glossary .word:not(:last-child){
+    margin-bottom: 5px;
+}
+.glossary .word a{
+    font-family: 'GESS_TWO_MEDIUM';
+    background: #2e7c44 none repeat scroll 0 0;
+    font-size: 17px;
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+}
+.glossary .letter:not(.dimmed_letter):hover, .glossary .letter:not(.dimmed_letter):focus, .glossary .letter:not(.dimmed_letter).active_letter{
+    font-family: 'GESS_TWO_MEDIUM';
+}
+.glossary .word.active a,.glossary .word a:hover,.glossary .word a:focus{
+    background:#FDCA2C none repeat scroll 0 0;
+}
+/*last Update 21 - 6 */
+/*eslamic main #2e7c44 light #39914c dark #1d502d another c #7dbc85 light #8bcc8e */

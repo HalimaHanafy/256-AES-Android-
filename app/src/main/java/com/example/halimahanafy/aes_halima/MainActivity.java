@@ -1,87 +1,82 @@
 package com.example.halimahanafy.aes_halima;
 
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 
-import org.bouncycastle.crypto.InvalidCipherTextException;
+import java.io.File;
+
+import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
 public class MainActivity extends AppCompatActivity {
+
+    String fileName="MTA5MWM0Zjg1NzJiZDk1LnppcA==.zip";
+    String DECRPTED_FILE_PATH;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Permissions.verifyStoragePermissions(this);
 
-        String s= null;
+
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                  /*
+        Decrypt 256 file
+         */
+                DECRPTED_FILE_PATH=Decrypt.decryptFile(fileName);
+
+                openDownloadedFile(new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+                        "/popo.zip"),MainActivity.this);
+
+
+
+//                String zipFile = Environment.getExternalStorageDirectory() + "/popo.zip";
+//                String unzipLocation = Environment.getExternalStorageDirectory() + "/unzippedpopo/";
+//
+//                Decompress d = new Decompress(zipFile, unzipLocation);
+//                d.unzip();
+
+
+
+            }
+        });
+
+
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+
+    }
+
+    public static void openDownloadedFile(File f , Context myContext){
+//        Log.e("tag","found");
         try {
-//            s = AES.encrypt("b1U995YFbERWuzO72GmKSBWpACVIb3L9", stringToHTMLEntities("<b>asmaa</b>"));
-
-//            Log.e("ENC ", "" + s);
-            Log.e("DEC ",""+ AES.decrypt("b1U995YFbERWuzO72GmKSBWpACVIb3L9","vPHqTK2CoE2h1eRRF/TvUgfafyEGP3NJItjb6e/FDT0="));
-
-
-        } catch (InvalidCipherTextException e) {
+            if (!f.isDirectory())
+                f.mkdir();
+            Intent testIntent = new Intent(Intent.ACTION_VIEW);
+            testIntent.setType("application/x-wav");
+            testIntent.setAction(Intent.ACTION_VIEW);
+            Uri uri = Uri.fromFile(f);
+            testIntent.setDataAndType(uri, "application/x-wav");
+            testIntent.addFlags(FLAG_ACTIVITY_NEW_TASK);
+            myContext.startActivity(testIntent);
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-
-    public static String stringToHTMLEntities(String string) {
-        if (string == null) {
-            return "";
-        }
-
-        StringBuffer sb = new StringBuffer(string.length());
-
-        boolean lastWasBlankChar = false;
-        int len = string.length();
-        char c;
-
-        for (int i = 0; i < len; i++) {
-            c = string.charAt(i);
-
-            if (c == ' ') {
-                if (lastWasBlankChar) {
-                    lastWasBlankChar = false;
-                    sb.append("&nbsp;");
-                } else {
-                    lastWasBlankChar = true;
-                    sb.append(' ');
-                }
-            } else {
-                lastWasBlankChar = false;
-
-                if (c == '"') {
-                    sb.append("&quot;");
-                } else if (c == '&') {
-                    sb.append("&amp;");
-                } else if (c == '<') {
-                    sb.append("&lt;");
-                } else if (c == '>') {
-                    sb.append("&gt;");
-                } else if (c == 'n') {
-                    sb.append("n");
-                } else if (c == 39) { //check for apostrophe character
-                    sb.append("&#39;");
-                } else {
-                    int ci = 0xffff & c;
-
-                    if (ci < 160) {
-                        sb.append(c);
-                    } else {
-                        sb.append("&#");
-                        sb.append(new Integer(ci).toString());
-                        sb.append(';');
-                    }
-                }
-            }
-        }
-
-        return sb.toString();
-    }
-
-
 }
 
 

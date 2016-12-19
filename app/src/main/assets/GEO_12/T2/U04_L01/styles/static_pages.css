@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'GESS_TWO_LIGHT';
+    src: local('☺'), url(../../../../player/fonts/GESS_Two_light.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESS_Two_Medium';
+    src: local('☺'), url(../../../../player/fonts/GESS_Two_Medium.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'GESS_TWO_LIGHT';
+    color: #4F1D1C;
+}
+/*start summery*/
+.summery .container1{
+    background: #e1bd96;
+    padding: 13px;
+    margin-top: 68px;
+}
+.summery .container2{
+    border: dashed 2px #fff;
+    display: flex;    
+}
+.summery .container2>div{
+    overflow: hidden;
+}
+.summery img{
+    margin: 50px auto;    
+}
+.summery p{
+    font-size: 20px;
+    text-align: right;
+    margin: 73px 14px;
+    animation-delay: 0.7s;
+}
+/*end summery*/
+
+/*start objectives*/
+.objectives .container1{
+    background: #e1bd96;
+    padding: 13px;
+    margin-top: 46px;
+}
+.objectives .container2{
+    border: dashed 2px #fff;
+    display: flex;
+    overflow: hidden;
+}
+.container2>div{
+    text-align: right;
+}
+.objectives .container2>div:nth-child(1){
+    margin: 58px 75px;
+}
+.objectives p{
+    font-family: 'GESS_Two_Medium';
+    text-align: right;
+    font-size: 28px;
+    animation-delay: 0.3s;
+}
+.objectives img{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.objectives li{
+    font-size: 23px;
+    margin: 12px 10px;
+}
+.objectives li:before {
+    content: "";
+    font-size: 17px;
+    line-height: 1.7;
+    padding-right: 7px;
+    margin: 2px 10px;
+    color: #0e7b79;
+    background: #0e7b79;
+}
+.objectives ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*end objectives*/
+
+/*start intro*/
+.intro .container1{
+    background: #e1bd96;
+    padding: 13px;
+    margin-top: 80px;
+}
+.intro .container2{
+    border: dashed 2px #fff;
+    display: flex;    
+}
+.intro .container2 div:nth-child(1){
+    padding: 55px;
+}
+.intro p{
+    font-size: 20px;
+    text-align: right;
+}
+.intro img{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.intro .container2{
+    overflow: hidden;
+}
+/*end intro*/
+
+
+
+@media (max-width:991px){
+    .summery p{
+        margin: 32px 14px;
+    }
+    .summery .container1{
+        margin-top: 25px;
+    }
+    .objectives .container2>div:nth-child(1){
+        margin:25px 5px;
+    }
+    .objectives p{
+        font-size: 21px;
+    }
+    .objectives li{
+        font-size: 19px;
+    }
+    .objectives .container1{
+        margin-top: 40px;
+    }
+    .intro .container2 div:nth-child(1) {
+        padding: 32px;
+    }
+    .intro .container1{
+        margin-top: 16px;
+    }
+}
+@media (max-width:750px){
+    .summery p{
+        font-size: 18px;
+        margin: 13px 6px;
+    }
+    .summery img{
+        margin: 20px auto;
+    }
+    .summery .container1{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .objectives p{
+        font-size: 16px;
+    }
+    .objectives .container1{
+        margin: 36px 27px;
+    }
+    .objectives .container2>div:nth-child(1){
+        margin:12px 0px;
+    }
+    .intro p{
+        font-size: 18px;
+        padding: 2px;
+    }
+    .intro .container2 div:nth-child(1) {
+        padding: 15px;
+    }
+    .intro .container1{
+        margin: 26px 13px;
+    }
+}
+
+
+
+
+
+
+
+
+

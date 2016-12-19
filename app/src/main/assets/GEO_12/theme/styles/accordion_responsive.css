@@ -1,0 +1,52 @@
+@media (max-width:993px) {
+    .accordion .terms {
+    width: 80%;
+        margin:  0  auto;
+}
+ .accordion .desc {
+   max-height: 160px;
+}
+}
+.page_title {
+    background: #ef9646 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-table;
+    font-size: 17px;
+    padding: 10px 60px;
+    margin-bottom: 20px;
+    background-image: url(../../../theme/images/map.png);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'GESS_TWO_MEDIUM';
+    line-height: 27px;
+}
+@media (max-width:769px) { 
+/*   Accordion */
+    .accordion .page_title {
+        font-size: 18px;
+        padding: 8px 60px;
+        margin: 15px 0;
+    }
+        .accordion .terms{
+        margin: 0 auto ;
+        width: 95%;
+    }
+         .accordion .term .term_header {
+        height: 30px;
+    }
+        .accordion .term .term_header .symbol {
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+    }
+        .accordion .term .term_header .term_title {
+        line-height: 30px;
+        width: calc(100% - 30px);
+    }
+        .accordion .term.open .term_body {
+        width: calc(100% - 60px);
+    }
+}
+
+ 

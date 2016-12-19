@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'GESS_TWO_MEDIUM';
+    src: local('☺'), url(../../../player/fonts/GESS_Two_Medium.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESS_TWO_LIGHT';
+    src: local('☺'), url(../../../player/fonts/GESS_Two_light.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'GESS_TWO_LIGHT';
+}
+/*eslamic main #2e7c44 light #39914c dark #1d502d another c #7dbc85 light #8bcc8e */
+html {
+    position: relative;
+}
+
+html,
+body {
+    min-height: 100%;
+/*    font-family: "hocen", "jf-flat", "cocon", Arial, sans-serif;*/
+}
+
+body {
+    font-size: 15px;
+    background-color: #fff;
+    /* padding-bottom: 40px;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+a:active,
+a:hover,
+a:focus {
+    outline: 0;
+    text-decoration-line: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clear_ul {
+    padding: 0;
+    border: 0;
+    list-style: none;
+    margin: 0px;
+}
+
+
+/*general styles*/
+
+.no-margin {
+    margin: 0;
+}
+
+.line_text {
+    line-height: 30px;
+}
+
+.content {
+    height: 100%;
+}
+
+
+/* template_css*/
+ 
+ 
+/*   Accordion */
+
+/*
+body.accordion {
+    background: rgba(0, 0, 0, 0) url("../images/Background-01.png") no-repeat scroll 0 0 / cover;
+}
+*/
+.accordion .terms {
+    /*background-color: #fff;*/
+    display: block;
+    margin: 20px auto 0;
+    width: 70%;
+}
+
+
+.accordion .term:not(:last-child) {
+    margin-bottom: 3px;
+    border-radius: 8px;
+}
+
+.accordion .term .term_header {
+    cursor: pointer;
+    box-shadow: -3px 6px 7px #348849;
+    border-radius: 8px;
+    height: 40px;
+    background: #8bcc8e;
+    /* For browsers that do not support gradients */
+/*    background: -webkit-linear-gradient(right top, #8bcc8e, #8bcc8e);*/
+    /* For Safari 5.1 to 6.0 */
+/*    background: -o-linear-gradient(bottom left, #8bcc8e, #8bcc8e);*/
+    /* For Opera 11.1 to 12.0 */
+/*    background: -moz-linear-gradient(bottom left, #8bcc8e, #8bcc8e);*/
+    /* For Firefox 3.6 to 15 */
+/*    background: linear-gradient(to bottom left, #8bcc8e, #8bcc8e);*/
+    /* Standard syntax */
+}
+
+.accordion .term .term_header .symbol {
+    border-radius: 0px 8px 8px 0px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: #3D9E52;
+    /* For browsers that #2e7c44do not support gradients */
+    background: -webkit-linear-gradient(right top, #3D9E52, #2e7c44);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom left, #3D9E52, #2e7c44);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom left, #3D9E52, #2e7c44);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom left, #3D9E52, #2e7c44);
+    /* Standard syntax */
+    color: #fff;
+    cursor: pointer;
+}
+
+.accordion .term .term_header:hover .symbol{
+    background-position: 0px -15px;
+    color: #FBBC19;
+}
+
+.accordion .term .term_header .term_title {
+    width: calc(100% - 40px);
+    padding-right: 10px;
+    line-height: 40px;
+}
+.custom_desc{
+    display: inline-flex;
+}
+.accordion .term .term_body {
+   box-shadow: 0 0 25px 2px #348849 inset;
+    margin: 0 auto;
+width: calc(100% - 80px);
+    padding: 15px;
+    position: relative;
+    display: none;
+}
+ 
+.accordion .term  .read {
+    color: #f00;
+    bottom: 5px;
+    left: 10px;
+    position: absolute;
+    font-size: 18px;
+    cursor: pointer;
+  /*  z-index: 439;*/
+}
+.accordion .term  .read.play {
+     color: #ef9646;
+}
+
+.accordion .desc {
+/*    max-height: 135px;*/
+    overflow-y: auto;
+    padding: 2px;
+    font-size: 18px;
+/*    font-family: serif;*/
+}
+.center-block{
+    max-height: 155px;
+}
+/*eslamic main #2e7c44 light #39914c dark #1d502d another c #7dbc85 light #8bcc8e */

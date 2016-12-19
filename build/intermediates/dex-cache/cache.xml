@@ -2,148 +2,166 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_0ab60428a51f62de206c3858058cf6ba177082ed.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_0ff127c31f225d3d143a626d178bf345ae8cc7c6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e64a2931c1ad8f5a6d2620918b383f8d1c9ac8db.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_55faf6d202d565212540aa628198cb241b3c48b6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_59bec42b20cbe37806ca525404d611767d6b54e6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_03b4e4f229fabb74d345c2e760c5f7fba83046e9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_2a91e6e9513a4131fd829aa7cc6fe9f2a4cf531e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7665fe2e3567018a8b9374632618c4115b99094e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_bc47e0edb1618e605df0dfa7a6e2aa0864f8b6b4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_f2f280c82ebc7468e62f8f98414c8dbe765a007f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_ee6aec5461cf832695fd236abb2f97954509eeea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_88d05a52afdc2a7e35281fea1220b117aca4a857.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_eb1d55d27ddcb7d84d3fb280678fe41b99d409ae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_67d6693b6eea2b8611ae681b35fd363dec7ae40d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/halimahanafy/LinuxFiles/ADTLinux_x86_64/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/halima/ADTLinux_x86_64/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_0849122ae99bb9dff74fd343151649aeeace43d4.jar" />
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_60fbaab6d5b77d9fd7ffa1c036372f9dc7d4883c/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/halimahanafy/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk16/1.45/612d4afcd33f05a5ffdd9cf835e3bd4e3b44018/bcprov-jdk16-1.45.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fc8699433893f5bfdc85144ab729ca14eba4ae6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_b2840bc72c83c54b90f22b6009232a7341aea7b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_a040163962de25df84bf8aacd30d133ef4004a1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c4bc5226c50be41093c6d46badf1cc81795c79f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_30afece92ccb39a7f03374f903e2cda2abfe7ec4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_78c7d091f5ee1c1871073d4fa8ff73d8f5d75cb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3921b385f7d79d1914964c2afc9f9710167fb6c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ad6d3a689c3190594f14aa8ca52355413271cb5e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_dc36810299f187f5af953f6ac72ab7067381be87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1231e076caf2ed332a1f265094faa5f522bf92a3">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9e318aba1e5310106564765dd7d49cb8d29c6e90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_bac1bb7508aa37452e03a8bd22adf9bec3882f6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="120401237fb8759d113d16dd207a5f920d8b1740">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_73995849b84550eea57d7fbac88b31550830f8d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_c02abea72f84825887758f2e7815ba498d957429/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f5e65c9ffe5edf3c22907689b60d3598d950f6d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_94e1f2677f9c9b88bc4540080334c74db0a08a93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_b43200297c72c5d701d2cbb526c790b20fe323bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/halima/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk16/1.45/612d4afcd33f05a5ffdd9cf835e3bd4e3b44018/bcprov-jdk16-1.45.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="0612d4afcd33f05a5ffdd9cf835e3bd4e3b44018">
-        <dex dex="/home/halimahanafy/Desktop/AES-Halima/app/build/intermediates/pre-dexed/debug/bcprov-jdk16-1.45_e868cf9b0f3a5ed46576247554eddf46dd9b9f60.jar" />
+        <dex dex="/home/halima/KASHCOOL/dec - monazam/256-AES-Android-/app/build/intermediates/transforms/dex/debug/folders/1000/10/bcprov-jdk16-1.45_11c49b078a3840aa7729364ae5f3c33e042f064c/classes.dex" />
     </item>
 
 </items>

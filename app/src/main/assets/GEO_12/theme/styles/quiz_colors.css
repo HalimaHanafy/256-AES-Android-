@@ -1,0 +1,88 @@
+.quiz .que_head {
+    background-color: #328a8e;
+    color: #fff;
+   
+}
+.que_body {
+    border-color: #DBD8BA;
+}
+
+.question.work > div:not(.dimmed):hover,.question.work > div:not(.dimmed):focus,.check_btn:not(.dimmed):hover{
+     background-color: #b4b1b1;
+    color: #000;
+}
+/*singleChoiceTxt*/
+.choiceTxt > div {
+    background-color: #767070;
+    color: #fff;
+}
+.choiceTxt > div:hover {
+    background-color: #ffffff !important;
+    border: solid 1px #767070 !important;
+    color: #767070 !important;
+}
+/*trueFalse*/
+.trueFalse div {
+   color: #fff;
+    background-color: #767070;
+}
+.trueFalse div:hover {
+   color: #767070 !important;
+    background-color: #ffffff !important;
+    border: solid 1px #767070;
+}
+/*essay*/
+.essay textarea{
+    background-color: #767070;
+    color: #fff;
+}
+ .check_btn{
+    box-shadow: 0 0px 0 0 #a78b54;
+    background-color: #328a8e;
+    border-bottom: solid 3px #446c6d;
+    color: #fff;    
+}
+.check_btn:hover{
+    background-color: #ef9646 !important;
+    border-bottom: solid 3px #e98124 !important;
+}
+.checked {
+    background-color: #f39d40 !important;
+    border: solid 1px #e59e58;
+    color: #ffffff !important;
+}
+/*report*/
+#report_modal .active > td {
+ background-color: #e9d19e;
+     color: #5B4C2E;
+    
+}
+#report_modal .bg_footer {
+ background-color: #328a8e;
+ color: #fff;
+    
+}
+#report_modal td, #report_modal th{
+    border-color:  #000;
+}
+/* pagantion*/
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #328a8d;
+    border-color: #328a8e;
+    color: #fff;
+    
+}
+.pagination > li > a, .pagination > li > span {
+ color:   #328a8d;
+    border-radius: 0px !important;
+}
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    background-color: #328a8d;
+    border-color: #328a8e;
+    color: #fff;
+    
+}
+.green_color{
+    color: green;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <title>quiz az </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../player/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../../player/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../theme/styles/quiz_az.css">
+    <link rel="stylesheet" href="../../theme/styles/quiz_responsive_az.css">
+    <link rel="stylesheet" href="../../theme/styles/quiz_colors.css">
+</head>
+
+<body>
+    <div class="quiz">
+        <div class="que_head">
+            <div class="icon pull-right"><i class="fa fa-list-alt"></i></div>
+            <div class="title pull-left"> </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="que_body" >
+            <div class="que_title"></div>
+            <div class="que_answers "></div>
+            <nav id="quiz_pag" class="text-center">
+                
+            </nav>
+        </div>
+    </div>
+    <!-- modals-->
+    <!-- true Modal -->
+    <div class="modal fade" id="correct_modal" tabindex="-1">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body ">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <img class="img-responsive img-center" alt="" src="../../../player/images/correct.png"/>
+                    <br/>
+                    <h5 class="text-center modal_info">أحسنت , إجابة صحيحة</h5>
+                </div>
+                <!--end modal-body-->
+
+            </div>
+        </div>
+    </div>
+    <!--end true_modal-->
+    <!-- wrong Modal -->
+    <div class="modal fade" id="wrong_modal" tabindex="-1">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body ">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <img class="img-responsive img-center" alt="" src="../../../player/images/wrong.png"/>
+                    <br/>
+                    <h5 class="text-center modal_info">إجابتك خاطئة</h5>
+                </div>
+                <!--end modal-body-->
+
+            </div>
+        </div>
+    </div>
+    <!--end wrong_modal-->
+    <!-- inaccurate  Modal -->
+    <div class="modal fade" id="inaccurate_modal" tabindex="-1">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body ">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <img class="img-responsive img-center" alt="" src="../../../player/images/wrong.png"/>
+                    <br/>
+                    <h5 class="text-center modal_info">إجابتك غير دقيقة </h5>
+                </div>
+                <!--end modal-body-->
+
+            </div>
+        </div>
+    </div>
+    <!--end inaccurate Modal-->
+    <!-- text Modal -->
+    <div class="modal fade" id="text_modal" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">الإجابة الصحيحة</h4>
+                </div>
+
+               
+                <div class="modal-body">
+                    <h4 class="frame_text  text-success"></h4>
+                </div>
+                <!--end modal-body-->
+
+            </div>
+        </div>
+    </div>
+    <!--end text_modal-->
+    <div class="modal fade" tabindex="-1" id="report_modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">تفاصيل التقرير</h4>
+                </div>
+                <div class="modal-body">
+                    <table class="table  text-center">
+                        <thead>
+                            <tr class="active">
+                                <td>رقم السؤال</td>
+                                <td>إجابتك</td>
+                                <td>الإجابة الصحيحة</td>
+                                <td>درجة السؤال</td>
+                            </tr>
+                        </thead>
+                        <tbody class="report_body">
+                            <!--<tr>
+                                <td>السؤال الإول</td>
+                                <td>كل ما سبق</td>
+                                <td>مبتدأ مرفوع</td>
+                                <td>1</td>
+                            </tr>-->
+                        </tbody>
+                        <tfoot>
+                            <tr class="bg_footer">
+                                <td colspan="3" class="text-center">المجموع</td>
+                                <td class="total">30/5</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- Creates the bootstrap modal where the image will appear -->
+    <div class="modal fade" id="previewmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+                </div>
+                <div id="preview_location" class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal-->
+    <script src="jsons/quiz.json"></script>
+    <script src="../../../player/js/jquery-2.2.3.min.js"></script>
+    <script src="../../../player/js/bootstrap.min.js"></script>
+    <script src="../../../player/js/pagination.js"></script>
+    <script src="../../../player/scripts/quiz.js"></script>
+</body>
+
+</html>

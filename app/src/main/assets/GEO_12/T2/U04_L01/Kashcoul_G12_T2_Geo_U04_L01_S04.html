@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>memory game</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../../player/css/animate.min.css">
+    <link href="../../../player/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/memory_game.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <h1 class="page_title animated fadeInDown">عزيزي الطالب، نشط ذاكرتك من خلال مطابقة بطاقة الصورة ببطاقة الوصف التي تماثلها وذلك بالضغط على كل صورة لتظهر لك ثم ابحث عن الوصف الصحيح لها والضغط عليه</h1>
+      <div class="container-fluid memory_items">
+      </div>
+    
+      <!-- Feedback Modal -->
+      <div class="modal fade" id="feedback" role="dialog">
+        <div class="modal-dialog">    
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img src="../../theme/images/feedback.png" class="img-responsive">
+            </div>
+        </div>
+      </div>
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../../player/js/jquery-2.2.3.min.js"></script>
+    <script src="../../../player/js/bootstrap.min.js"></script>
+    <script src="jsons/memory_game.json"></script>
+    <script src="../../../player/scripts/memory_card.js"></script>
+  </body>
+</html>

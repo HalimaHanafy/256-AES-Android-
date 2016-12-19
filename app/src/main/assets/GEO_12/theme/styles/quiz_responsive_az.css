@@ -1,0 +1,90 @@
+@media (max-width:1190px) and (min-width:768px) {}
+
+@media (max-width:992px) {
+    
+    .quiz .que_head {
+    font-size: 21px;
+    line-height: 48px;
+}
+    .que_title {
+    font-size: 19px;
+    line-height: 25px;
+}
+    .choiceTxt > div {
+    font-size: 16px;
+    line-height: 20px;
+}
+    .essay textarea {
+    font-size: 19px;
+    line-height: 25px;
+}
+    /*trueFalse*/
+.trueFalse{
+    margin-top: 50px;
+}
+}
+
+@media (max-width:768px) {
+    .quiz .que_head {
+    font-size: 20px;
+    line-height: 45px;
+        height: 45px;
+    }
+    .que_head .icon {
+    height: 45px;
+}
+     .que_head .title  {
+    height: 45px;
+}
+    .que_title {
+    font-size: 18px;
+    line-height: 23px;
+        padding: 10px 15px;
+}
+    .que_answers {
+    max-height: calc(100% - 100px);
+}
+    .choiceTxt > div {
+    font-size: 16px;
+    line-height: 20px;
+}
+    .essay textarea {
+    font-size: 17px;
+    line-height: 23px;
+}
+    .pagination{margin: 15px 0;}   
+}
+
+@media (max-width:650px) {
+    
+    .quiz .que_head {
+        height: 40px;
+    font-size: 19px;
+    line-height: 40px;
+    }
+    .que_head .icon {
+    font-size: 30px;
+    line-height: 40px;
+        height: 45px;
+}
+    .que_head .title  {
+    height: 45px;
+}
+    .que_title {
+    font-size: 17px;
+    line-height: 21px;
+        padding: 5px 5px;
+}
+    
+    .que_answers {
+    max-height: calc(100% - 70px);
+}
+    .essay textarea {
+    font-size: 16px;
+    line-height: 21px;
+}
+    .pagination{margin: 5px 0 15px;}   
+}
+
+@media (max-width:410px) {}
+/*last Update 21 - 6 */

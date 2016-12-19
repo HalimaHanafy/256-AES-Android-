@@ -1,0 +1,26 @@
+/*Psychology colors 1 #e3b33b, 2 #fdd46d, 3:main #8a0f0e, 4 #a32f2e, 5 #f7ced8, 6 #e5cd90*/
+.page_title {
+    background: #82161A none repeat scroll 0 0;
+}
+body.glossary{
+     background: #767070 none repeat scroll 0 0;
+}
+.glossary .gloss_letters .letter {
+    background: #ffffff none repeat scroll 0 0;
+}
+.glossary .letter:not(.dimmed_letter):hover,.glossary .letter:not(.dimmed_letter):focus,.glossary .letter:not(.dimmed_letter).active_letter {
+    background-color: #19787c;
+}
+.glossary .menu_title,.glossary .tabs_title{
+    background-color:#ef9646 ;
+}
+.glossary .tab-content,.glossary .gloss_words{
+    background: #ffffff none repeat scroll 0 0;
+}
+.glossary .word a{
+    background: #767070 none repeat scroll 0 0;
+    text-decoration: none;
+}
+.glossary .word.active a,.glossary .word a:hover,.glossary .word a:focus{
+    background:#19787c none repeat scroll 0 0;
+}

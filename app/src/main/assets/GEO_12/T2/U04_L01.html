@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- <meta charset="UTF-8">-->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Player</title>
+    <!--<link rel="shortcut icon" href="">-->
+    <link rel="stylesheet" href="../../player/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../player/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../theme/styles/player_style_az.css">
+    <link rel="stylesheet" href="../theme/styles/player_responsive_az.css">
+    <link rel="stylesheet" href="../theme/styles/player_color.css">
+
+</head>
+
+<body >
+   <div class="screen">
+       <aside class="menu_nav in ">
+        <ul id="content_menu" class="navbar list-unstyled clear_ul">
+            <li class="active"><a href="#">الرئيسية</a></li>
+            <li><a href="#">التعلم</a></li>
+            <li><a href="#">الأسئلة</a></li>
+            <li class="glossary"><a href="#">القاموس</a></li>
+            <li><a href="#">الملخص</a></li>
+        </ul>
+    </aside>
+           <header>
+           <div class="container">
+            <div class="row ">
+                <div class="col-xs-4 col-sm-4 col-md-3">
+                    <ul class="clear_ul head_control ">
+                        <li class="r_triangle_border l_triangle_border search_btn" title="ابحث" data-toggle="modal" data-target="#search"><a class="icon"><i class="fa fa-search"></i></a></li>
+                        <li id="note" class="r_triangle_border " title="ملاحظات  " data-toggle="modal" data-target="#note_modal"><a class="icon"><i class="fa fa-file-text-o"></i></a></li>
+                        <li id="help" class="r_triangle_border" title="مساعدة" data-toggle="modal" data-target="#help_modal"><a class="icon"><i class="fa fa-question"></i></a></li>
+                    </ul>
+                        <div class="clearfix"></div>
+                </div>
+                <div class=" col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-md-offset-1 ">
+                    <div class="lesson_name r_triangle_border l_triangle_border">
+
+                        <!--  starting lesson title-->
+                        <!-- Split button -->
+                        <div class="btn-group btn-block" dir="rtl">
+                            <button type="button" class="btn pull-left curr_lesson "></button>
+                            <button type="button" class="btn pull-right dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="قائمة الدروس">
+                                <span class="fa fa-angle-down"></span>
+                                <span class="sr-only"></span>
+                            </button>
+                            <div class="clearfix"></div>
+                            <ul class="all_lessons dropdown-menu dropdown-menu-right">
+                            </ul>
+                        </div>
+                        <!--  End lesson title-->
+                    </div>
+                </div>
+                <div class="col-xs-2  col-sm-2  col-md-1 col-md-offset-3 text-center">
+                    <div class="full_screen l_triangle_border r_triangle_border pull-right" title="لتكبير و تصغير حجم الشاشة ">
+                        <a class="icon "><i class="fa fa-expand"></i></a>
+                    </div>
+
+                </div>
+            </div></div>
+    </header>
+        
+    
+   <div class="container stage borders"  >
+       
+      <section class="real_body">
+       <!--<h1 style="display:none;">seaction name</h1>-->
+          <div class="content ">
+
+            <object data=" "></object>
+        </div>
+        
+    </section> 
+     </div>
+         <footer><div class="container">
+            <div class="row">
+                <div class="col-xs-4 text-center">
+                    <div class="numbering"> صفحة <span class="current" title="رقم الشريحة الحالية">13</span> من <span class="last" title="عدد الشرائح">43</span></div>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <ul class="clear_ul footer_control">
+                        <li class="next_nav l_triangle_border" title="التالي"><a class="icon"><i class="fa fa-angle-left"></i></a></li>
+                        <li class="reload_btn r_triangle_border l_triangle_border center_icon " title="اعادة تحميل الشريحة"><a class="icon"><i class="fa fa-repeat "></i></a></li>
+                        <li class="prev_nav r_triangle_border" title="السابق"><a class="icon"><i class="fa fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4  ">
+            <div class="submenu_control l_triangle_border r_triangle_border pull-right" title="اظهار و اخفاء قائمة المحتوي">
+                         <a class="icon "><i class="fa fa-bars"></i></a> 
+                    </div> <div class="clearfix"></div></div>
+            </div>
+</div>
+       
+    </footer>
+    </div>
+    <!-- help modal -->
+    <div id="help_modal" tabindex="-1" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button aria-label="Close" data-dismiss="modal" class="close" type="button" title="إغلاق"><span aria-hidden="true" class="fa fa-times-circle"> </span></button>
+                    <img alt="help" src="../theme/images/help.png"/>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- help modal End-->
+    <!-- note modal -->
+    <div id="note_modal" tabindex="-1" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button aria-label="Close" data-dismiss="modal" class="close" type="button" title="إغلاق"><span aria-hidden="true" class="fa fa-times-circle"> </span></button>
+                    <div class="note_head">
+                        <textarea id="add_note" class="input_them"  placeholder="أضف ملاحظتك هنا "></textarea>
+                        <a id="add_btn" class="dimmed symbol" title="اضغط للإضافة">
+                            <i class="fa fa-plus "></i>
+                        </a>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="results">
+                        
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+    <!-- note modal End-->
+    <!--    start search modal-->
+    <div class="modal fade" id="search" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button aria-label="Close" data-dismiss="modal" class="close" type="button" title="إغلاق"><span aria-hidden="true" class="fa fa-times-circle"> </span></button>
+                    <div class="search_cont">
+                        <input type="search" placeholder="أبحث هنا" class="search_inbux input_them">
+                        
+                        <a class="search_icon symbol search_button">
+                            <i class="fa fa-search "></i>
+                        </a>
+                        <div class="clearfix"></div>
+                        <div class="search_result">
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    end search modal-->
+    <!-- scripts -->
+    <script type="text/javascript" src="../../player/js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="../../player//js/jquery_ui.min_12.0.js"></script>
+    <script type="text/javascript" src="../../player/js/jquery.ui.touch-punch.min.js"></script>
+     <script type="text/javascript" src="../../player/js/jquery.fullscreen-0.4.1.min.js"></script>
+    <script type="text/javascript" src="../../player/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../player/scripts/player.js"></script>
+</body>
+
+</html>

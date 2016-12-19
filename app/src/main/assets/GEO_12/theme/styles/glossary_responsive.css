@@ -1,0 +1,77 @@
+@media (max-width:993px) {
+    .glossary .gloss_letters {
+    margin-top: 15px;
+    }
+    /*   Glossary   */
+    .glossary .page_title {
+        margin-top: 15px;
+    }
+    .glossary .gloss_letters .letter {
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        width: 35px;
+    }
+    .glossary .menu_title,
+    .glossary .tabs_title {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .glossary .tab-content,
+    .glossary .gloss_words {
+        height: 240px;
+    }
+    .glossary .tab-content .desc {
+        line-height: 27px;
+    }
+    .glossary .gloss_words ul ,.glossary .desc{
+        max-height: 220px;
+    }
+    .glossary .word a {
+        font-size: 17px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width:769px) {
+    .page_title {
+        font-size: 19px;
+        margin-bottom: 15px;
+        padding: 10px 40px;
+    }
+    /*   Glossary   */
+    .glossary .page_title {
+        margin-top: 10px;
+    }
+    .glossary .gloss_letters .letter {
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: 30px;
+    }
+    .glossary .menu_title,
+    .glossary .tabs_title {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 8px;
+        margin-top: 10px;
+    }
+    .glossary .tab-content,
+    .glossary .gloss_words {
+        height: 190px;
+    }
+    .glossary .tab-content .desc {
+        line-height: 25px;
+    }
+    .glossary .gloss_words ul ,.glossary .desc{
+        max-height: 170px;
+    }
+    .glossary .word a {
+    background: #2e7c44 none repeat scroll 0 0;
+    font-size: 15px;
+    padding: 5px 8px;
+}
+}
+
+
+/*last Update 21 - 6 */
